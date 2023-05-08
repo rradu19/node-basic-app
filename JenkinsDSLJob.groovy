@@ -17,7 +17,7 @@ job('Node-Basic-App') {
     }
 
     steps {
-        shell('npm install')
+        shell('npm init -y')
     }
 
 }
