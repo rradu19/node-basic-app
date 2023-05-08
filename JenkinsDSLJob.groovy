@@ -1,4 +1,4 @@
-// Initial Deployment
+/// Initial Deployment
 // job('New Hello-World Job') {
 //     description('New-Hello-World-Job')
 //     steps {
@@ -11,7 +11,7 @@ job('Node-Basic-App') {
     scm {
        git('https://github.com/rradu19/node-basic-app.git')
     }
-    
+
     wrappers{
         nodejs('nodejs')
     }
